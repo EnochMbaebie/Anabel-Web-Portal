@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Master Class</title>
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Oleo+Script|Poiret+One" rel="stylesheet">
+
+</head>
+<body>
+	<nav class="navbar navbar-custom">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	        <div class="navbar-brand brand-name">
+           <a href="./index.html"><img class="img-responsive2"       
+           src="./images/Anabel-Group-Logo.png"></a>
+           </div>
+	    </div> <br><br>	   
+ 		<ul class="nav navbar-nav navbar-right">
+	        <li><a href="./index.html">Home</a></li>
+	        <li class="dropdown"><a href="./aboutus.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="./aboutus.html">About us</a></li>
+	            <li><a href="./mission.html">Mission | Vision</a></li>
+	            <li><a href="./contactus.html">Contact Us</a></li>
+	          </ul>
+	        </li>
+			<li class="dropdown"><a href="./entrepreneurship.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Entrepreneurship <span class="caret"> </span> </a>
+	        	<ul class="dropdown-menu">
+	            	<li><a href="./entrepreneurship.html">Entreprenuership</a></li>
+	            	<li><a href="./empower.html">Empower Nigeria Initiative</a></li>
+	            	<li><a href="./Startupnigeria.html">Start up Nigeria</a></li>
+	            	<li><a href="./eidi.html">Entrepreneurship Investment and Development Initiative (EIDI) </a></li>
+	            	<li><a href="./entrepreneur.html">Entrepreneurs</a></li>
+	           		 <li><a href="./Aec.html">Anabel Entrepreneurship Clinic</a></li>
+	            </ul></li>
+
+	        <li class="dropdown">
+	        	<a href="./leadership.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Strategy | Leadership <span class="caret"></span></a><ul class="dropdown-menu">
+	            <li><a href="./leadership.html">Strategy | Leadership</a></li>
+	            <li><a href="./masterclass.html">Master Class</a></li>
+	            <li><a href="./oil&gas.html">Oil | Gas In Nigeria</a></li>
+	          </ul>
+	      </li>
+
+	        <li class="dropdown">
+	          <a href="./bizexcellence.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Business Excellence <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	          	<li><a href="./bizexcellence.html">Business Excellence </a></li>
+	            <li><a href="./ber.html">Business Excellence Retreat</a></li>
+	            <li><a href="./beme.html">Business Excellence Matrix | Evaluation</a></li>
+	            <li><a href="./beei.html">Business Excellence and the Energy Industry</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="./ebo.html">Excellent Business Operations</a></li>
+	          </ul>
+	        </li>
+
+	        <li class="dropdown">
+	          <a href="./globalcapital.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Global Capital <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="./globalcapital.html">Global Capital</a></li>
+	            <li><a href="./nds.html">National Development Strategy</a></li>
+	            <li><a href="./lcsi.html">Local Content Strategic Initiative</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	</nav>
+
+
+		<div class="container form-container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+
+						<div class="card" style="width: 50rem;">
+						  <img class="card-img-top img-circle" src="./images/work1.jpg" alt="Card image cap" height="200px" width=" 150px">
+						  <div class="card-body">
+						  	<h3 class="card-text"> Register Now </h3>
+						    	<p class="card-text">
+						    			<form id="form">
+							<div class="form-group">
+						    <label for="exampleInputFile">names</label>
+						    <input type="text" class="form-control" id="exampleInputnames" placeholder="names" v-model = "names">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputFile">names of Organisation</label>
+						    <input type="text" class="form-control" id="exampleInputnames" placeholder="name of organisation" v-model = "nameOfOrganisation">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputFile">position</label>
+						    <input type="text" class="form-control" id="exampleInputnames" placeholder="position" v-model = "position">
+						  </div>
+						   <div class="form-group">
+						    <label for="exampleInputFile">sex (male or female )</label>
+						    <input type="text" class="form-control" id="exampleInputnames" placeholder="sex" v-model = "sex">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" v-model = "emailAddress">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">phone numbers</label>
+						    <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="numbers" v-model = "phone">
+						  </div>
+						  
+						  
+						  <button type="submit" class="btn btn-default" v-on:click.preventdefault ="post">Submit</button>
+					</form>
+
+						    	 </p>
+						  </div>
+						
+						
+					</div>
+					
+
+				</div>
+			
+
+		</div>
+
+			<div>
+		<div class="row">
+
+				<div class="col-md-3">
+					<div class="card" style="width: 15rem;">
+						  <img class="card-img-top" src="./images/web/ALA Logo Main.jpg" class="img-responsive" alt="Responsive image">
+					</div>
+				</div>
+
+				
+
+				<div class="col-md-4">
+					<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="./images/web/StartupNigerialogoJpeg.jpg" class="img-responsive" alt="Responsive image">
+				    </div>
+				</div>
+
+				<div class="col-md-2">
+					<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="./images/web/Empower Nigeria Logo 2.png" class="img-responsive" alt="Responsive image">
+					</div>
+				</div>
+
+			
+				
+
+			</div>
+			<br><br>
+
+			<div>
+	
+			<div class="row">
+
+
+
+				<div class="col-md-3">
+					<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="./images/web/Business Excellence Logo.png" class="img-responsive" alt="Responsive image">
+					</div>
+				</div>
+				
+
+				<div class="col-md-3">
+					<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="./images/web/Global Capital The Road Show Logo.png" class="img-responsive" alt="Responsive image">
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="./images/web/LoCoSti.jpg" class="img-responsive" alt="Responsive image">
+					</div>
+				</div>
+
+				 <div class="col-md-3">
+					<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="./images/web/Succession Logo.png" class="img-responsive" alt="Responsive image">
+					</div>
+				</div>
+
+				
+
+		</div>
+
+		</div>
+	</div>
+
+
+
+
+
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.js"></script>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+	
+	<script type="text/javascript">
+		
+		var app = new Vue({
+			el:'.#form',
+			data:{
+				names:'',
+				nameOfOrganisation:'',
+				position:'',
+				sex:'',
+				emailAddress:'',
+				phoneNumber:'',
+
+
+			},
+			methods:{
+				post:function(){
+
+							axios.post('https://anabel-group.firebaseio.com/post.json',
+						    firstName: 'Fred',
+						    lastName: 'Flintstone'
+						  })
+						  .then(function (response) {
+						    console.log(response);
+						  })
+						  .catch(function (error) {
+						    console.log(error);
+						  });
+				};
+
+			}
+
+		});
+
+	</script>
+</body>
+</html>

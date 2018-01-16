@@ -1,0 +1,72 @@
+body{
+	margin: 0px;
+	padding-bottom: 70px;
+
+}
+.navbar-custom{
+	border-radius: 0px;
+	background-color: #cc417d;
+
+}
+.navbar-custom a {
+	color: #fff;
+	font-family: 'Roboto', medium;
+	font-weight: bolder;
+	font-size: 15px;
+
+}
+
+
+.navbar .nav > li > a {
+  line-height: 30px;
+}
+
+.navbar-custom ul a:hover{
+	background-color: #cc417d;
+	color: #fff;
+	font-family: 'Roboto', medium;
+	font-weight: bolder;
+	font-size: 15px;
+}
+.navbar-custom .navbar-header .navbar-brand  {
+	color: #fff;
+	font-family: 'Open+Sans', medium;
+	font-weight: bolder;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.container #body #header{
+	color: black;
+	font-family: 'Roboto', medium;
+	font-weight: bolder;
+	font-size: 15px;
+
+}
+.container #body #image-cap{
+	color: black;
+	font-family: 'Roboto', medium;
+	font-weight: bolder;
+	font-size: 15px;
+
+}
+
+.navbar {
+  margin: 10px 0;
+}
+.navbar-default {
+background-color: none;
+border-color: #fff;
+}
+.brand-name {
+ font-family: 'Josefin Slab', serif;
+ font-size: 47px;
+ font-weight: bold;
+ color: #444;
+ text-decoration: none;
+}
+
+.nav-container {
+padding-top: 8px;
+}
+
+
